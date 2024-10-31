@@ -31,7 +31,7 @@ app.post('/chat', async (req, res) => {
   };
 
   const data = {
-    model: 'openchat/openchat-3.5-1210', // Example model, replace with the appropriate model name
+    model: 'meta-llama/Meta-Llama-3.1-8B-Instruct-lora', // Example model, replace with the appropriate model name
     messages: [
       {
         role: 'system',

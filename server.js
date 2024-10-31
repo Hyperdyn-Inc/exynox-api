@@ -2,7 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 import Together from 'together-ai'; // Import the Together module
 
-const together = new Together(); // Initialize Together
+const together = new Together({ apiKey: '7b82baa0413204685763230c9fa6b8565f5e8b38beeb4211d414e057c5524ddf' });
+
 
 const app = express();
 const port = 3000;
